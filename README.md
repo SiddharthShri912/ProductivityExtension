@@ -11,3 +11,4 @@ future plans:
 3. add a timer which the user can look at.
 4. make a better icon.
 5. make it so access count refreshes daily.  
+6. Also make it so the alert does not come on all urls.
