@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Producter",
+    "version": "0.0.1",
+    "descrition" : "Simple extension to be more productive! ",
+    "icons": {
+        "16" : "ext_icon_16.png",
+        "48" : "ext_icon_48.png",
+        "128" : "ext_icon_123.png"
+    },
+    "permissions": [
+        "storage",
+        "tabs"
+    ],  
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"]
+        }
+    ]
+}
