@@ -5,7 +5,21 @@ const generateHTML = (pagename) => {
 };
 
 const generatestyle = () => {
-    return ``;
+    return `<style>
+            body{
+              background-image: url("bg3.jpg");
+              background-fit:cover;
+              background-repeat:no-repeat;
+              background-position: center;
+            }
+            h1{
+              background-color: linearGradient(Blue,White);
+              font-family: sans-serif;
+              text-align: center;
+              position: relative;
+              float:none;
+              margin-top: 100px;
+            }`;
 };
 
 let accessCount = localStorage.getItem("exampleAccessCount");
